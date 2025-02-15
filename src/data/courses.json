@@ -1,0 +1,402 @@
+{
+	"courseData": [
+		{
+			"id": 1,
+			"name": "Introduction to React Native",
+			"instructor": "John Doe",
+			"description": "Learn the basics of React Native development and build your first mobile app.",
+			"enrollmentStatus": "Open",
+			"thumbnail": "https://qph.cf2.quoracdn.net/main-qimg-f9514ea83444ef5dfded019d798ca48b-lq",
+			"duration": "8 weeks",
+			"schedule": "Tuesdays and Thursdays, 6:00 PM-8:00 PM",
+			"location": "Online",
+			"prerequisites": [
+				"Basic JavaScript knowledge",
+				"Familiarity with React"
+			],
+			"syllabus": [
+				{
+					"week": 1,
+					"topic": "Introduction to React Native",
+					"content": "Overview of React Native, setting up your development environment."
+				},
+				{
+					"week": 2,
+					"topic": "Building Your First App",
+					"content": "Creating a simple mobile app using React Native components."
+				}
+			],
+			"students": [
+				{
+					"id": 101,
+					"name": "Alice Johnson",
+					"email": "alice@example.com",
+					"progress":12
+				},
+				{
+					"id": 102,
+					"name": "Bob Smith",
+					"email": "bob@example.com",
+					"progress":34
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "Advanced JavaScript",
+			"instructor": "Jane Doe",
+			"description": "Deep dive into advanced JavaScript concepts, including ES6+ features.",
+			"enrollmentStatus": "Closed",
+			"thumbnail": "https://cdn.mindmajix.com/courses/javascript-training-120620.png",
+			"duration": "6 weeks",
+			"schedule": "Mondays and Wednesdays, 7:00 PM-9:00 PM",
+			"location": "Online",
+			"prerequisites": ["Basic JavaScript knowledge"],
+			"syllabus": [
+				{
+					"week": 1,
+					"topic": "Advanced Functions",
+					"content": "Understanding closures, callbacks, and higher-order functions."
+				},
+				{
+					"week": 2,
+					"topic": "Asynchronous JavaScript",
+					"content": "Promises, async/await, and working with APIs."
+				}
+			],
+			"students": [
+				{
+					"id": 201,
+					"name": "Charlie Brown",
+					"email": "charlie@example.com",
+					"progress":14
+				},
+				{
+					"id": 202,
+					"name": "David Green",
+					"email": "david@example.com",
+					"progress":0
+				}
+			]
+		},
+		{
+			"id": 3,
+			"name": "Python for Data Science",
+			"instructor": "Emily Davis",
+			"description": "Master Python programming for data science and machine learning.",
+			"enrollmentStatus": "In Progress",
+			"thumbnail": "https://media.licdn.com/dms/image/D4D12AQE3Z8FdcS8L6A/article-cover_image-shrink_720_1280/0/1694965101010?e=2147483647&v=beta&t=yrFKuepyH0y3YRjB0KVRdrNFrsutFzeXNGVYBvnWZoE",
+			"duration": "10 weeks",
+			"schedule": "Fridays, 5:00 PM-8:00 PM",
+			"location": "Online",
+			"prerequisites": [
+				"Basic Python knowledge",
+				"Familiarity with data analysis"
+			],
+			"syllabus": [
+				{
+					"week": 1,
+					"topic": "Introduction to Data Science",
+					"content": "Overview of data science, setting up Python environment."
+				},
+				{
+					"week": 2,
+					"topic": "Pandas and Numpy",
+					"content": "Working with data in Python using Pandas and Numpy."
+				}
+			],
+			"students": [
+				{
+					"id": 301,
+					"name": "Eva Green",
+					"email": "eva@example.com",
+					"progress":12
+				},
+				{
+					"id": 302,
+					"name": "Frank White",
+					"email": "frank@example.com",
+					"progress":56
+				}
+			]
+		},
+		{
+			"id": 4,
+			"name": "Full-Stack Web Development",
+			"instructor": "Michael Lee",
+			"description": "Learn full-stack web development using MERN stack (MongoDB, Express, React, Node.js).",
+			"enrollmentStatus": "Open",
+			"thumbnail": "https://www.simplilearn.com/ice9/free_resources_article_thumb/How_to_Become_a_Back_End_Developer.jpg",
+			"duration": "12 weeks",
+			"schedule": "Weekends, 10:00 AM-4:00 PM",
+			"location": "Online",
+			"prerequisites": ["Basic HTML, CSS, and JavaScript knowledge"],
+			"syllabus": [
+				{
+					"week": 1,
+					"topic": "Introduction to Full-Stack Development",
+					"content": "Overview of the MERN stack and project setup."
+				},
+				{
+					"week": 2,
+					"topic": "Backend Development with Node.js",
+					"content": "Building RESTful APIs using Express and MongoDB."
+				}
+			],
+			"students": [
+				{
+					"id": 401,
+					"name": "Grace Hall",
+					"email": "grace@example.com",
+					"progress":21
+				},
+				{
+					"id": 402,
+					"name": "Henry Ford",
+					"email": "henry@example.com",
+					"progress":89
+				}
+			]
+		},
+		{
+			"id": 5,
+			"name": "Machine Learning Basics",
+			"instructor": "Sophia Wilson",
+			"description": "Introduction to machine learning concepts and algorithms using Python.",
+			"enrollmentStatus": "Closed",
+			"thumbnail": "https://assets.bitdegree.org/online-learning-platforms/storage/media/stanford-database-course-featured-image.o.jpg",
+			"duration": "8 weeks",
+			"schedule": "Mondays and Thursdays, 6:00 PM-8:00 PM",
+			"location": "Online",
+			"prerequisites": [
+				"Basic Python knowledge",
+				"Familiarity with data science"
+			],
+			"syllabus": [
+				{
+					"week": 1,
+					"topic": "Introduction to Machine Learning",
+					"content": "Overview of machine learning, types of machine learning."
+				},
+				{
+					"week": 2,
+					"topic": "Supervised Learning",
+					"content": "Understanding regression and classification algorithms."
+				}
+			],
+			"students": [
+				{
+					"id": 501,
+					"name": "Ivy Carter",
+					"email": "ivy@example.com",
+					"progress":10
+				},
+				{
+					"id": 502,
+					"name": "Jack Wilson",
+					"email": "jack@example.com",
+					"progress":78
+				}
+			]
+		},
+		{
+			"id": 6,
+			"name": "UI/UX Design Principles",
+			"instructor": "Olivia Brown",
+			"description": "Learn the fundamentals of user interface and user experience design.",
+			"enrollmentStatus": "Open",
+			"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpcj5c9GrUXQuaMQ7iOzivcWdOCdCWObB1PA&s",
+			"duration": "6 weeks",
+			"schedule": "Wednesdays, 6:00 PM-9:00 PM",
+			"location": "Online",
+			"prerequisites": ["Basic design knowledge"],
+			"syllabus": [
+				{
+					"week": 1,
+					"topic": "Introduction to UI/UX Design",
+					"content": "Overview of UI/UX design, design thinking process."
+				},
+				{
+					"week": 2,
+					"topic": "User Research Intro",
+					"content": "Conducting user research and creating personas."
+				},
+				{
+					"week": 3,
+					"topic": "User Research Advanced",
+					"content": "Leveling up with UI/UX ."
+				},
+				{
+					"week": 4,
+					"topic": "User Research Excersies",
+					"content": "Laude lga denge english me ..."
+				}
+			],
+			"students": [
+				{
+					"id": 601,
+					"name": "Kimberly Adams",
+					"email": "kimberly@example.com",
+					"progress":10
+				},
+				{
+					"id": 602,
+					"name": "Leo Thomas",
+					"email": "leo@example.com",
+					"progress":0
+				}
+			]
+		},
+		{
+			"id": 7,
+			"name": "Cloud Computing with AWS",
+			"instructor": "Daniel Clark",
+			"description": "Master cloud computing concepts and AWS services.",
+			"enrollmentStatus": "In Progress",
+			"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBCuEpj3UOyMt4B-1WgSAINBD4GxkBXk34EjKRwL1tTw&s",
+			"duration": "10 weeks",
+			"schedule": "Tuesdays and Thursdays, 7:00 PM-9:00 PM",
+			"location": "Online",
+			"prerequisites": ["Basic IT knowledge"],
+			"syllabus": [
+				{
+					"week": 1,
+					"topic": "Introduction to Cloud Computing",
+					"content": "Overview of cloud computing, types of cloud services."
+				},
+				{
+					"week": 2,
+					"topic": "AWS Basics",
+					"content": "Understanding AWS services and setting up your AWS account."
+				}
+			],
+			"students": [
+				{
+					"id": 701,
+					"name": "Megan Lopez",
+					"email": "megan@example.com"
+				},
+				{
+					"id": 702,
+					"name": "Nathan Diaz",
+					"email": "nathan@example.com",
+					"progress":55
+				}
+			]
+		},
+		{
+			"id": 8,
+			"name": "Cybersecurity Fundamentals",
+			"instructor": "Victoria Evans",
+			"description": "Learn the basics of cybersecurity, including risk management and threat prevention.",
+			"enrollmentStatus": "Open",
+			"thumbnail": "https://cdn.mindmajix.com/courses/javascript-training-120620.png",
+			"duration": "7 weeks",
+			"schedule": "Mondays, 6:00 PM-9:00 PM",
+			"location": "Online",
+			"prerequisites": ["Basic IT knowledge"],
+			"syllabus": [
+				{
+					"week": 1,
+					"topic": "Introduction to Cybersecurity",
+					"content": "Overview of cybersecurity, types of cyber threats."
+				},
+				{
+					"week": 2,
+					"topic": "Risk Management",
+					"content": "Understanding risk management and threat prevention strategies."
+				}
+			],
+			"students": [
+				{
+					"id": 801,
+					"name": "Olivia Roberts",
+					"email": "olivia@example.com",
+					"progress":4
+				},
+				{
+					"id": 802,
+					"name": "Paul Baker",
+					"email": "paul@example.com",
+					"progress":9
+				}
+			]
+		},
+		{
+			"id": 9,
+			"name": "Blockchain Basics",
+			"instructor": "Ethan White",
+			"description": "Understand blockchain technology and its applications in various industries.",
+			"enrollmentStatus": "Closed",
+			"thumbnail": "https://www.aqskill.com/wp-content/uploads/2022/10/1562d4dae8dc03456edca898e89c0f39ae086a8f-1600x1000-1.png",
+			"duration": "8 weeks",
+			"schedule": "Fridays, 5:00 PM-8:00 PM",
+			"location": "Online",
+			"prerequisites": ["Basic IT knowledge"],
+			"syllabus": [
+				{
+					"week": 1,
+					"topic": "Introduction to Blockchain",
+					"content": "Overview of blockchain technology, understanding how blockchain works."
+				},
+				{
+					"week": 2,
+					"topic": "Blockchain Applications",
+					"content": "Exploring blockchain applications in finance, supply chain, and other industries."
+				}
+			],
+			"students": [
+				{
+					"id": 901,
+					"name": "Quinn Garcia",
+					"email": "quinn@example.com",
+					"progress":78
+				},
+				{
+					"id": 902,
+					"name": "Rachel Brooks",
+					"email": "rachel@example.com",
+					"progress":89
+				}
+			]
+		},
+		{
+			"id": 10,
+			"name": "Data Visualization with D3.js",
+			"instructor": "Samuel Harris",
+			"description": "Learn how to create interactive data visualizations using D3.js.",
+			"enrollmentStatus": "In Progress",
+			"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpcj5c9GrUXQuaMQ7iOzivcWdOCdCWObB1PA&s",
+			"duration": "6 weeks",
+			"schedule": "Wednesdays, 7:00 PM-9:00 PM",
+			"location": "Online",
+			"prerequisites": ["Basic JavaScript knowledge"],
+			"syllabus": [
+				{
+					"week": 1,
+					"topic": "Introduction to Data Visualization",
+					"content": "Overview of data visualization, understanding D3.js."
+				},
+				{
+					"week": 2,
+					"topic": "Creating Basic Charts",
+					"content": "Building basic charts using D3.js and JavaScript."
+				}
+			],
+			"students": [
+				{
+					"id": 1001,
+					"name": "Sarah Turner",
+					"email": "sarah@example.com",
+					"progress":90
+				},
+				{
+					"id": 1002,
+					"name": "Tom Anderson",
+					"email": "tom@example.com",
+					"progress":8
+				}
+			]
+		}
+	]
+}

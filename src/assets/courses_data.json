@@ -1,0 +1,125 @@
+{
+    "courseData": [
+        {
+            "id": 1,
+            "name": "Introduction to React Native",
+            "instructor": "John Doe",
+            "description": "Learn the basics of React Native development and build your first mobile app.",
+            "enrollmentStatus": "Open",
+            "thumbnail": "https://qph.cf2.quoracdn.net/main-qimg-f9514ea83444ef5dfded019d798ca48b-lq",
+            "duration": "8 weeks",
+            "schedule": "Tuesdays and Thursdays, 6:00 PM-8:00 PM",
+            "location": "Online",
+            "prerequisites": [
+                "Basic JavaScript knowledge",
+                "Familiarity with React"
+            ],
+            "syllabus": [
+                {
+                    "week": 1,
+                    "topic": "Introduction to React Native",
+                    "content": "Overview of React Native, setting up your development environment."
+                },
+                {
+                    "week": 2,
+                    "topic": "Building Your First App",
+                    "content": "Creating a simple mobile app using React Native components."
+                }
+            ],
+            "students": [
+                {
+                    "id": 101,
+                    "name": "Alice Johnson",
+                    "email": "alice@example.com",
+                    "status": "In Progress"
+                },
+                {
+                    "id": 102,
+                    "name": "Bob Smith",
+                    "email": "bob@example.com",
+                    "status": "Completed"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Advanced JavaScript",
+            "instructor": "Jane Doe",
+            "description": "Deep dive into advanced JavaScript concepts, including ES6+ features.",
+            "enrollmentStatus": "Closed",
+            "thumbnail": "https://cdn.mindmajix.com/courses/javascript-training-120620.png",
+            "duration": "6 weeks",
+            "schedule": "Mondays and Wednesdays, 7:00 PM-9:00 PM",
+            "location": "Online",
+            "prerequisites": [
+                "Basic JavaScript knowledge"
+            ],
+            "syllabus": [
+                {
+                    "week": 1,
+                    "topic": "Advanced Functions",
+                    "content": "Understanding closures, callbacks, and higher-order functions."
+                },
+                {
+                    "week": 2,
+                    "topic": "Asynchronous JavaScript",
+                    "content": "Promises, async/await, and working with APIs."
+                }
+            ],
+            "students": [
+                {
+                    "id": 201,
+                    "name": "Charlie Brown",
+                    "email": "charlie@example.com",
+                    "status": "In Progress"
+                },
+                {
+                    "id": 202,
+                    "name": "David Green",
+                    "email": "david@example.com",
+                    "status": "Completed"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Python for Data Science",
+            "instructor": "Sarah Lee",
+            "description": "An introduction to Python and its applications in data science, including libraries like pandas and NumPy.",
+            "enrollmentStatus": "Open",
+            "thumbnail": "https://miro.medium.com/v2/resize:fit:1200/format:webp/1*dcmF4g7RM17iZJGSYYZIJg.png",
+            "duration": "10 weeks",
+            "schedule": "Fridays, 6:00 PM-9:00 PM",
+            "location": "Online",
+            "prerequisites": [
+                "Basic programming knowledge"
+            ],
+            "syllabus": [
+                {
+                    "week": 1,
+                    "topic": "Python Basics",
+                    "content": "Variables, data types, control structures, and functions in Python."
+                },
+                {
+                    "week": 2,
+                    "topic": "Data Analysis with Pandas",
+                    "content": "Introduction to data manipulation and analysis using pandas."
+                }
+            ],
+            "students": [
+                {
+                    "id": 301,
+                    "name": "Emily White",
+                    "email": "emily@example.com",
+                    "status": "In Progress"
+                },
+                {
+                    "id": 302,
+                    "name": "Frank Black",
+                    "email": "frank@example.com",
+                    "status": "Completed"
+                }
+            ]
+        }
+    ]
+}
